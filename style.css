@@ -127,6 +127,20 @@ nav{
         
 }
 
+@media screen and (max-width: 768px) {
+    .recipe-details {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .recipe-details {
+        width: 95%;
+        height: 95%;
+    }
+}
+
 .recipeDetailsContent{
     padding: 30px;
 }
